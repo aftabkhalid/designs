@@ -1,6 +1,6 @@
-# ak-website
+# Designs
 
-This is my personal static website.
+This is my personal GH-PAGES based website.
 
 ## Commands
 
