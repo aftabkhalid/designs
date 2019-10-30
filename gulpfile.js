@@ -12,12 +12,12 @@ var gulp = require("gulp"),
 var paths = {
   sass: {
     src: "sass/theme.scss",
-    dest: "scaffold/css"
+    dest: "css"
   },
 
   fullpageCss: {
     src: "node_modules/fullpage/dist/fullpage.css",
-    dest: "scaffold/css"
+    dest: "css"
   },
 
   // bootstrap: {
@@ -55,10 +55,10 @@ function style() {
 // Copy file from node_modules
 
 const arr = [
-  {to: 'scaffold/css', from: ['node_modules/fullpage.js/dist/fullpage.css']},
+  {to: 'css', from: ['node_modules/fullpage.js/dist/fullpage.css']},
   {to: 'sass/material-icons', from: ['node_modules/@mdi/font/scss/*.scss']},
-  {to: 'scaffold/fonts', from: ['node_modules/@mdi/font/fonts/**']},
-  {to: 'scaffold/js', from: ['node_modules/fullpage.js/vendors/easings.min.js', 'node_modules/fullpage.js/vendors/scrolloverflow.min.js','node_modules/fullpage.js/dist/fullpage.min.js']}
+  {to: 'fonts', from: ['node_modules/@mdi/font/fonts/**']},
+  {to: 'js', from: ['node_modules/fullpage.js/vendors/easings.min.js', 'node_modules/fullpage.js/vendors/scrolloverflow.min.js','node_modules/fullpage.js/dist/fullpage.min.js']}
 ];
 
 function copyFiles(arr) {

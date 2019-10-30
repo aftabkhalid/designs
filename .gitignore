@@ -38,3 +38,4 @@ scss-lint-report.xml
 bower_components
 node_modules
 .jekyll-metadata
+_ak_pages
