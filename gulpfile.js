@@ -1,23 +1,23 @@
 
 // gulpfile.js
 var gulp = require("gulp"),
-  sass = require("gulp-sass"),
-  postcss = require("gulp-postcss"),
-  autoprefixer = require("autoprefixer"),
-  cssnano = require("cssnano"),
-  sourcemaps = require("gulp-sourcemaps");
-  browserSync = require("browser-sync").create();
+    sass = require("gulp-sass"),
+    postcss = require("gulp-postcss"),
+    autoprefixer = require("autoprefixer"),
+    cssnano = require("cssnano"),
+    sourcemaps = require("gulp-sourcemaps");
+    browserSync = require("browser-sync").create();
 
 //Paths
 var paths = {
   sass: {
     src: "sass/theme.scss",
-    dest: "css"
+    dest: "scaffold/css"
   },
 
   fullpageCss: {
     src: "node_modules/fullpage/dist/fullpage.css",
-    dest: "css"
+    dest: "scaffold/css"
   },
 
   // bootstrap: {
@@ -55,10 +55,10 @@ function style() {
 // Copy file from node_modules
 
 const arr = [
-  {to: 'css', from: ['node_modules/fullpage.js/dist/fullpage.css']},
+  {to: 'scaffold/css', from: ['node_modules/fullpage.js/dist/fullpage.css']},
   {to: 'sass/material-icons', from: ['node_modules/@mdi/font/scss/*.scss']},
-  {to: 'fonts', from: ['node_modules/@mdi/font/fonts/**']},
-  {to: 'js', from: ['node_modules/fullpage.js/vendors/easings.min.js', 'node_modules/fullpage.js/vendors/scrolloverflow.min.js','node_modules/fullpage.js/dist/fullpage.min.js']}
+  {to: 'scaffold/fonts', from: ['node_modules/@mdi/font/fonts/**']},
+  {to: 'scaffold/js', from: ['node_modules/fullpage.js/vendors/easings.min.js', 'node_modules/fullpage.js/vendors/scrolloverflow.min.js','node_modules/fullpage.js/dist/fullpage.min.js']}
 ];
 
 function copyFiles(arr) {
@@ -84,11 +84,11 @@ function reload() {
 function watch() {
   browserSync.init({
     server: {
-      baseDir: "./"
+      baseDir: "_ak_pages",
     }
   });
   gulp.watch("sass/**/*.scss", style);
-  gulp.watch('*.html').on('change', browserSync.reload)
+  gulp.watch('_ak_pages/*.html').on('change', browserSync.reload)
 }
 
 exports.style = style;
