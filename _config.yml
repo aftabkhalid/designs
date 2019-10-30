@@ -21,6 +21,8 @@ baseurl:          /designs
 url:              https://aftabkhalid.github.io
 encoding:         UTF-8
 
+publishDir:       "_ak_pages"
+
 # Custom vars
 current_version:  0.1.5
 repo:             git@github.com:aftabkhalid/designs.git
