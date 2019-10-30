@@ -15,11 +15,13 @@ email:            xeeafui@gmail.com
 source:           scaffold
 destination:      _ak_pages
 
-host:             0.0.0.0
-port:             9001
-baseurl:          ""
-url:              http://localhost:9001/
+# host:             0.0.0.0
+# port:             9001
+baseurl:          /designs
+url:              https://aftabkhalid.github.io
 encoding:         UTF-8
+
+publishDir:       "_ak_pages"
 
 # Custom vars
 current_version:  0.1.5
