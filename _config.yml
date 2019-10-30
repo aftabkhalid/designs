@@ -15,8 +15,8 @@ email:            xeeafui@gmail.com
 source:           scaffold
 destination:      _ak_pages
 
-host:             0.0.0.0
-port:             9001
+# host:             0.0.0.0
+# port:             9001
 baseurl:          "designs"
 url:              ""
 encoding:         UTF-8
