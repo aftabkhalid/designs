@@ -12,7 +12,7 @@ title:            Aftab Khalid
 description:      Personal static website.
 email:            xeeafui@gmail.com
 
-# source:           scaffold
+source:           scaffold
 destination:      _ak_pages
 
 host:             0.0.0.0
