@@ -22,12 +22,13 @@ encoding:         UTF-8
 
 
 # Custom vars
-current_version:  0.1.5
+current_version:  1.0.0
 repo:             git@github.com:aftabkhalid/designs.git
 
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

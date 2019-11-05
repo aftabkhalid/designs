@@ -1,0 +1,15 @@
+- url: projects/mevris
+  title: Mevris - IoT Platform
+  description: Donec id elit non mi porta gravida at eget lorem ipsum.
+
+- url: projects/dukaan-enterprise
+  title: Dukaan Enterprise
+  description: Praesent scelerisque et magna semper tincidunt.
+
+- url: projects/dukaan-client
+  title: Dukaan
+  description: Duis eget felis vel erat malesuada porta quis in lacus.
+
+- url: projects/OGC
+  title: OGC
+  description: Praesent scelerisque et magna semper tincidunt.

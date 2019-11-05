@@ -222,3 +222,19 @@ header[role="site-header"] {
 .blockquote-footer {
   margin-top: 20px;
 }
+
+//
+////
+// Custom Container for portfolio page
+
+.container-custom {
+  max-width: 1430px;
+  @include make-container();
+}
+
+.portfolio-pg {
+  padding-top: 170px;
+  img {
+    width: 100%;
+  }
+}
