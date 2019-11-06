@@ -6,6 +6,7 @@ kramdown:
 
 # Permalinks
 permalink:        pretty
+permalink:        /:categories/:title/
 
 # Core
 title:            Aftab Khalid
