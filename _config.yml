@@ -5,8 +5,7 @@ kramdown:
   auto_ids: true
 
 # Permalinks
-permalink:        pretty
-permalink:        /:categories/:title/
+permalink: /:title/
 
 # Core
 title:            Aftab Khalid
@@ -26,6 +25,10 @@ encoding:         UTF-8
 current_version:  1.0.0
 repo:             git@github.com:aftabkhalid/designs.git
 
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
 
 plugins:
   - jekyll-feed
