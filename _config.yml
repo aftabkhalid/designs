@@ -5,7 +5,7 @@ kramdown:
   auto_ids: true
 
 # Permalinks
-permalink: /:title/
+permalink:        pretty
 
 # Core
 title:            Aftab Khalid
@@ -26,13 +26,11 @@ current_version:  1.0.0
 repo:             git@github.com:aftabkhalid/designs.git
 
 
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
-
 plugins:
-  - jekyll-feed
+  - "jekyll-github-metadata"
+  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
