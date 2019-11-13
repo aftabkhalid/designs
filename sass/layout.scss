@@ -110,7 +110,7 @@ header[role="site-header"] {
 .portfolio-grid {
 	column-width: 320px;
 	column-gap: 15px;
-	margin: 50px auto;
+	padding-top: 50px;
 
   figure {
   	transition: opacity .4s ease-in-out;
@@ -188,6 +188,12 @@ header[role="site-header"] {
     margin-top: 1px;
     box-shadow: 0px 18px 22px -11px rgba(10,3,235,.45);
   }
+}
+
+.outline {
+  background-color: $white;
+  border: 2px solid $mk-blue;
+  color: $mk-blue;
 }
 
 //
