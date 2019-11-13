@@ -84,7 +84,7 @@ function reload() {
 function watch() {
   browserSync.init({
     server: {
-      baseDir: "_ak_pages",
+      baseDir: "./",
     }
   });
   gulp.watch("sass/**/*.scss", style);
