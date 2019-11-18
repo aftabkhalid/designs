@@ -246,6 +246,13 @@ header[role="site-header"] {
 }
 
 //
+//// Overrides
+
+.badge {
+  font-weight: normal;
+}
+
+//
 //// Responsive layout
 
 @include media-breakpoint-down(md) {
