@@ -1,5 +1,7 @@
 portfolioShot:
 - thumb:
+  imagePath: images/dukaan-enterprise.png
+- thumb:
   imagePath: images/mevris-cover.jpg
 - thumb:
   imagePath: images/mevris-website-cover.jpg

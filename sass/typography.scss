@@ -71,3 +71,10 @@ p {
   line-height: 34px;
   margin-top: 15px;
 }
+
+@include media-breakpoint-down(md) {
+  h1.huge,
+  .h1.huge {
+    font-size: $h1-font-size * fontSize(120); // Defined in Sass function
+  }
+}
