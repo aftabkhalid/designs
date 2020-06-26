@@ -1,15 +1,15 @@
 - url: /projects/mevris
   title: Mevris - IoT Platform
-  description: Donec id elit non mi porta gravida at eget lorem ipsum.
+  description: Mevris is an universal IoT platform for home automation.
 
 - url: /projects/dukaan-enterprise
   title: Dukaan Enterprise
-  description: Praesent scelerisque et magna semper tincidunt.
+  description: Dukaan is an ecommerce platform for enterprise clients.
 
 - url: /projects/dukaan-client
   title: Dukaan
-  description: Duis eget felis vel erat malesuada porta quis in lacus.
+  description: Dukaan is ecommerce platform for mobile & the web.
 
 - url: /projects/OGC
   title: OGC
-  description: Praesent scelerisque et magna semper tincidunt.
+  description: Orient group of companies.
