@@ -29,3 +29,5 @@ gem "jekyll-sitemap"
 gem "jekyll-github-metadata"
 gem "jekyll-redirect-from"
 gem "jekyll-seo-tag"
+
+gem "webrick", "~> 1.7"
