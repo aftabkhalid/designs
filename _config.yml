@@ -16,7 +16,7 @@ destination:      _ak_pages
 
 # host:             0.0.0.0
 # port:             9001
-baseurl:          "/design"
+baseurl:          "/designs"
 url:              "https://aftabkhalid.github.io"
 encoding:         UTF-8
 
